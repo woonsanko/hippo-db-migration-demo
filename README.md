@@ -32,8 +32,8 @@ This demo project simply migrates an H2 based repository to another H2 based rep
 $ sh bin/migrate.sh \
   --conf conf/source-repository.xml \
   --backup-conf conf/backup-repository.xml \
-  --repo ../source-storage \
-  --backup-repo ../backup-storage
+  --repo source-storage \
+  --backup-repo backup-storage
 ```
 
 - The above command will create ```recipe-for-hippo-db-migration/backup-storage``` folder and copy all database to that folder.
