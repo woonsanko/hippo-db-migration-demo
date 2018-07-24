@@ -1,0 +1,7 @@
+/content/gallery/hippodbmigrationdemo:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 24f01aa5-f225-40ef-a8c8-afb38cc8487f
+  hippo:name: Hippo CMS Database Migration Demo
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']

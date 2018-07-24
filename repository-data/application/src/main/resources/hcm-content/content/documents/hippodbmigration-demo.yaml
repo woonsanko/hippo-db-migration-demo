@@ -1,0 +1,9 @@
+/content/documents/hippodbmigrationdemo:
+  .meta:order-before: administration
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: d0379819-fc4e-4d9f-903d-a1a5cd8aef6f
+  hippo:name: Hippo CMS Database Migration Demo
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814
+  hippotranslation:locale: en

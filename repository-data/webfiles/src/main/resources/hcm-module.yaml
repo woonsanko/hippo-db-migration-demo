@@ -1,0 +1,5 @@
+group: 
+  name: hippodbmigration-demo
+  after: hippo-cms
+project: hippodbmigration-demo
+module: hippodbmigration-demo-repository-data-webfiles

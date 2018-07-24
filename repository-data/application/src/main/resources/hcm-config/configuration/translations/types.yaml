@@ -1,0 +1,90 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/hippodbmigrationdemo:eventsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippodbmigrationdemo:content: Content
+        hippodbmigrationdemo:date: Start date
+        hippodbmigrationdemo:enddate: End date
+        hippodbmigrationdemo:image: Image
+        hippodbmigrationdemo:introduction: Introduction
+        hippodbmigrationdemo:location: Location
+        hippodbmigrationdemo:title: Title
+        jcr:name: Event
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippodbmigrationdemo:content: Inhoud
+        hippodbmigrationdemo:date: Startdatum
+        hippodbmigrationdemo:enddate: Einddatum
+        hippodbmigrationdemo:image: Afbeelding
+        hippodbmigrationdemo:introduction: Introductie
+        hippodbmigrationdemo:location: Locatie
+        hippodbmigrationdemo:title: Titel
+        jcr:name: Evenement
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippodbmigrationdemo:content: Contenu
+        hippodbmigrationdemo:date: Date de début
+        hippodbmigrationdemo:enddate: Date de fin
+        hippodbmigrationdemo:image: Image
+        hippodbmigrationdemo:introduction: Introduction
+        hippodbmigrationdemo:location: Lieu
+        hippodbmigrationdemo:title: Titre
+        jcr:name: Événement
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippodbmigrationdemo:content: Inhalt
+        hippodbmigrationdemo:date: Startdatum
+        hippodbmigrationdemo:enddate: Enddatum
+        hippodbmigrationdemo:image: Abbildung
+        hippodbmigrationdemo:introduction: Einführung
+        hippodbmigrationdemo:location: Standort
+        hippodbmigrationdemo:title: Titel
+        jcr:name: Event
+    /hippo:configuration/hippo:translations/hippo:types/hippodbmigrationdemo:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippodbmigrationdemo:author: Author
+        hippodbmigrationdemo:content: Content
+        hippodbmigrationdemo:date: Date
+        hippodbmigrationdemo:image: Image
+        hippodbmigrationdemo:introduction: Introduction
+        hippodbmigrationdemo:location: Location
+        hippodbmigrationdemo:source: Source
+        hippodbmigrationdemo:title: Title
+        jcr:name: News Item
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippodbmigrationdemo:author: Auteur
+        hippodbmigrationdemo:content: Inhoud
+        hippodbmigrationdemo:date: Datum
+        hippodbmigrationdemo:image: Afbeelding
+        hippodbmigrationdemo:introduction: Introductie
+        hippodbmigrationdemo:location: Locatie
+        hippodbmigrationdemo:source: Bron
+        hippodbmigrationdemo:title: Titel
+        jcr:name: Nieuwsbericht
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippodbmigrationdemo:author: Verfasser
+        hippodbmigrationdemo:content: Inhalt
+        hippodbmigrationdemo:date: Datum
+        hippodbmigrationdemo:image: Abbildung
+        hippodbmigrationdemo:introduction: Einführung
+        hippodbmigrationdemo:location: Standort
+        hippodbmigrationdemo:source: Quelle
+        hippodbmigrationdemo:title: Titel
+        jcr:name: News
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippodbmigrationdemo:author: Auteur
+        hippodbmigrationdemo:content: Contenu
+        hippodbmigrationdemo:date: Date
+        hippodbmigrationdemo:image: Image
+        hippodbmigrationdemo:introduction: Introduction
+        hippodbmigrationdemo:location: Lieu
+        hippodbmigrationdemo:source: Source
+        hippodbmigrationdemo:title: Titre
+        jcr:name: Message d'info
