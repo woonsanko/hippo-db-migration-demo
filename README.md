@@ -25,7 +25,8 @@ This demo project simply migrates an H2 based repository to another H2 based rep
 ### Step 3: Migrate the source-storage to backup-storage
 
 - First, copy the ```source-storage``` folder in the project root to ```recipe-for-hippo-db-migration/``` folder.
-- Remove ```recipe-for-hippo-db-migration/source-storage/workspaces/default/workspace.xml``` file.
+- Copy ```recipe-for-hippo-db-migration/source-storage/workspaces/default/workspace.xml``` file to ```recipe-for-hippo-db-migration/source-storage/workspaces/default/workspace-origin.xml```.
+- Edit ```recipe-for-hippo-db-migration/source-storage/workspaces/default/workspace.xml``` to keep only ```<FileSystem>``` and ```<PersistenceManager>``` elements by copying those from [recipe-for-hippo-db-migration/conf/source-repository.xml](recipe-for-hippo-db-migration/conf/source-repository.xml). See [Step 2](https://github.com/woonsanko/recipe-for-hippo-db-migration/blob/master/README.md#step-2-copy-the-repository-directory-of-the-source-system-to-local-system-where-you-execute-this-tool) for detail.
 - In the [recipe-for-hippo-db-migration](recipe-for-hippo-db-migration) subfolder, execute the following command:
 
 ```bash
@@ -40,7 +41,9 @@ $ sh bin/migrate.sh \
 
 ### Step 4: Validation
 
-- Copy ```recipe-for-hippo-db-migration/backup-storage``` folder to the project root folder.
-- Remove ```backup-storage/workspaces/default/workspace.xml``` file.
-- Run the demo project with ```mvn -P cargo.run -Drepo.path=backup-storage``` again.
+- Copy ```recipe-for-hippo-db-migration/backup-storage``` folder to ```storage``` folder in the project root folder.
+- Remove ```storage/workspaces/default/workspace.xml``` file
+  copy the ```source-storage/workspaces/default/workspace-origin.xml``` (which you backup in the earlier step)
+  to ```storage/workspaces/default/workspace.xml```.
+- Run the demo project with ```mvn -P cargo.run -Drepo.path=storage```.
 - Make sure your new or updated content are there after the migration.
